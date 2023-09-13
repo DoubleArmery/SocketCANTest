@@ -19,7 +19,7 @@ struct can_frame {
 #include <linux/can/raw.h>
 #include <net/if.h>
 #include <signal.h>
- 
+
 /*定义can缓存区大小*/
 #define CAN_FRAME_BUFFER_SIZE 1024
 /*定义缓冲区结构体*/
